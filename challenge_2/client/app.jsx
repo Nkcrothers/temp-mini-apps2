@@ -14,8 +14,8 @@ class App extends React.Component {
             <h1>Bitcoin Charting Tool</h1>
           </div>
           <Graph />
-          <div>
-            Powered by CoinDesk
+          <div className='publish'>
+            Powered by <a href='https://www.coindesk.com/price/bitcoin' target='_blank'>CoinDesk</a>
           </div>
         </div>
       )
